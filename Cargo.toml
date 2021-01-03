@@ -6,3 +6,7 @@ edition = "2018"
 
 [dependencies]
 vec-arena = "1.0.0"
+serde = { version = "1.0.118", features = ["derive"] }
+
+[dev-dependencies]
+flexbuffers = "0.2.1"
