@@ -1,0 +1,8 @@
+[package]
+name = "futuresdr"
+version = "0.0.1-experimental"
+authors = ["Bastian Bloessl <mail@bastibl.net>"]
+edition = "2018"
+
+[dependencies]
+vec-arena = "1.0.0"
