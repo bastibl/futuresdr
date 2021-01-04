@@ -5,11 +5,12 @@ authors = ["Bastian Bloessl <mail@bastibl.net>"]
 edition = "2018"
 
 [dependencies]
-config = "0.10.1"
-dirs = "3.0.1"
-once_cell = "1.5.2"
-serde = { version = "1.0.118", features = ["derive"] }
-vec-arena = "1.0.0"
+config = "0.10"
+dirs = "3.0"
+log = { version = "0.4", features = ["std", "max_level_debug", "release_max_level_off"] }
+once_cell = "1.5"
+serde = { version = "1.0", features = ["derive"] }
+vec-arena = "1.0"
 
 [dev-dependencies]
-flexbuffers = "0.2.1"
+flexbuffers = "0.2"
