@@ -1,3 +1,4 @@
+pub mod circular_buffer;
 pub mod double_mapped_temp_file;
 
 pub use double_mapped_temp_file::DoubleMappedTempFile;

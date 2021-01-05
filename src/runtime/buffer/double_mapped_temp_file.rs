@@ -75,6 +75,10 @@ impl DoubleMappedTempFile {
             size,
         })
     }
+
+    pub fn addr(&self) -> *mut libc::c_void {
+        self.addr
+    }
 }
 
 impl Drop for DoubleMappedTempFile {
